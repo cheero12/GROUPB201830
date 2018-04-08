@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Layout */
+.page { max-width: 980px; margin: 0px auto; padding: 0px; }
+header { position: relative;;height: 85px; margin: 0px; padding-top:90px; 
+background: url(../images/banner.jpg) no-repeat 50% 0px;}
+header a.logo { width: 2100px; height: 190px; position: absolute; top: 0px; left: 15px;  display: inline-block;background:url(../images/kiran%20dai.png) no-repeat 0px 0px; }
+nav { background-color: rgba(0,0,0,.3); }
+section { margin: 0px; padding: 25px; background-color: #fff;}
+aside { width: 420px; float: right; margin: 0px 20px 10px 40px; padding: 0px 20px 0px 0px; border-left: 2px solid #ccc; }
+aside1 { width: 320px; float: right; margin: 0px 20px 10px 40px; padding: 0px 20px 0px 0px; border-left: 2px solid #ccc; }
+aside p { margin: 0px; }
+footer { border-top: 15px solid #ddd; margin: 0px; padding: 10px 35px 0px 0px; color: rgba(255,255,255,.4); width:980px; left:0px;}
+.slideshow-container {margin: 0px; padding: 25px; height:500px; }
+image {margin: 0px; padding: 0px ; height:500px; position:relative; z-index: 1; border-top:1px solid #757575;}
+.clear { clear: both; line-height: 1px; }
+.video{ float: right;
+	width: 700px;
+	padding-right: 0;
+	margin-bottom: 100;
+	z-index: 2;
+	margin-top: 20px;
+}
+
+nav{
+	 background-color:rgba(0,0,0,0,0);
+	 position:absolute;
+	 top:93px;  left:470px; right:500px
+	 padding: 0px 100px 10px  30px;
+	 width:51%;
+	 
+ }
+ nav:: after {content:''; display:block; clear:both;}
+ nav  ul {list_style:none; margin;0; padding:0px}
+ 
+nav  ul li: hover {background-color: white; }
+nav  ul  li: hover  >  ul  {display: block;}
+
+nav ul li a {display:inline-block; color:#fff;padding: 10px 10px; text-decoration:none; width:115px; position:relative;}
+nav ul ul li  {disply:none;}
+ nav ul li a: visited(color: #fff)
+ nav ul li a : hover{background-color:#6d0911;}
+ 
+ nav ul ul {position:absolute; top;100%; background-color: #2b0306; display:none; }
+ nav ul ul li {position:relative; }
+ nav ul ul ul  {left:100%; top:0px;}
+
+/* top level */
+ nav > ul {padding-left:200px;}
+ nav > ul > li {float:left;}
+  nav > ul > li > a{width:auto; padding:10px 20px 15px 20px;)
+
+

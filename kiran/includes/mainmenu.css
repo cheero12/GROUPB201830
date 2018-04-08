@@ -1,0 +1,129 @@
+
+/* Style */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,700,300);
+body { font: 12px Arial; margin: 0px; padding: 0px 20px; background-color: #736b02; }
+
+h1 { margin: 0 0 1em 0;  font-size: 1.7em; font-weight: normal; }
+h2 { margin: 0 0 .5em 0; font-size: 1.3em; }
+h3 { margin: 0 0 .5em 0; font-size: 1.3em; }
+p { margin: 0 0 1em 0; }
+aside p { color: #777; }
+footer { font-size: .9em; }
+
+
+/* Layout */
+.page { max-width: 980px; margin: 0px auto; padding: 0px; }
+header { position: relative;;height: 80px;margin: 0px; padding-top: 90px;
+background: url(../images/banner.jpg) no-repeat 50% 0px;}
+header a.logo { margin: 0px;width: 230px; height: 170px; position: absolute; top: 0px; left: 5px; background:url(../images/kiran%20dai.png) no-repeat 0px 0px; display: inline-block; }
+nav { background-color: rgba(0,0,0,.3); }
+section { margin: 0px; padding: 25px; background-color: #fff;}
+aside { width: 300px; float: right; margin: 0px 20px 10px 40px; padding: 0px 20px 0px 0px; border-left: 2px solid #ccc; }
+
+aside p { margin: 0px; }
+footer { border-top: 15px solid #ddd; margin: 0px; padding: 10px 35px 0px 0px; color: rgba(255,255,255,.4); width:950px; left:0px;}
+.slideshow-container {z-index: 1;margin: 0px;max-width:980px; padding: 25px; height:500px; }
+image {margin: 0px; padding: 0px ; height:500px; position:relative; z-index: 1; border-top:1px solid #757575;}
+.clear { clear: both; line-height: 1px; }
+.video{ float: right;
+	width: 700px;
+	padding-right: 0;
+	margin-bottom: 100;
+	z-index: 2;
+	margin-top: 20px;
+	max-width:680px;
+}
+.hero {
+	width: 42%;
+	position: absolute;
+	top: 165px;
+	left: 135px;
+}
+a.btn { font-size: 1.2em; text-decoration: none; color: #fff; border: 1px solid #fff; padding: 4px 15px; transition: background-color .5s; }
+a.btn:nav { background-color: rgba(0,0,0,.3); }
+nav{
+	 background-color:rgba(0,0,0,0,0);
+	 position:absolute;
+	 top:112px;  left:450px; right:500px;
+	 padding 0px 100px 10px  50px;
+	 width:51%;
+	 
+ }
+ nav:: after {content:''; display:block; clear:both;}
+ nav ul {list_style:none; margin:0; padding:0px;}
+ 
+nav  ul li: hover{background-color: white; }
+nav  ul  li: hover  >  ul{display: block;}
+
+nav ul li a {display:inline-block; color:#fff;padding: 10px 10px; text-decoration:none; width:115px; position:relative;}
+nav ul ul li  {disply:none;}
+ nav ul li a: visited(color: #fff;)
+ nav ul li a : hover{background-color:#6d0911;}
+ 
+ nav ul ul {position:absolute; top;100%; background-color: #2b0306; display:all;}  
+ nav ul ul li {position:relative; }
+ nav ul ul ul  {left:100%; top:0px;}
+
+/* top level */
+ nav > ul {padding-left:50px;}
+ nav > ul > li {float:left;}
+  nav > ul > li > a{width:auto; padding:10px 20px 15px 20px;)
+
+nav li ul a:link, nav li ul a:visited {
+	font:normal .7em DejaVuSansCond, Arial, sans-serif;
+	line-height: 2.5em;
+	text-align: center;
+	color: #3c6b92;
+	padding: 0 1em;
+	display:block;
+	border-right: none;
+	letter-spacing: 0;
+	border-bottom: 1px solid #3c6b92;
+}
+#siteNav li ul a:hover, #siteNav li ul a:active {
+	color: #fff;
+	background: #3c6b92;
+	
+
+	
+.callOut {
+	background: #e1d8b9;
+	padding: 25px;
+	margin-bottom: 25px;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-bottom-right-radius: 20px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 20px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 0px;
+	width: 385px;}
+	
+	secondaryContent {
+	float: right;
+	margin-top: 150px;
+	width: 440px;
+	padding-left: 25px;
+}
+	
+	
+	
+	
+ #secondaryContent h1 {
+	margin: 1em 0 .5em;
+	padding-top: 2em;
+	border-top: 2px solid #999;}
+}
+ #secondaryContent h1:first-child {
+	border: none;
+	padding-top: 0;
+	margin: 0 0 .25em;}
+.bg {
+		z-index:-5;
+		left:2
+	}
